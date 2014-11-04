@@ -1,0 +1,161 @@
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+
+/*******************************************
+				Defaults
+
+Remember to use something like type-scale.com 
+to get your font sizes
+*******************************************/
+*{
+	padding:0;
+	margin: 0;
+}
+html,body{
+border: 2px solid #fffff;
+text-align:left;
+background-color:#e1e3ac;
+marign: 2px;
+padding: 3px;
+}
+h1{
+border:2px solid #fffff;
+text-align:center;
+background-color:#fbfbfb;
+font-family: 'Dancing Script', cursive;
+}
+
+h2{
+border: solid #FFFFFF;
+text-align:center;
+background-color:#d3dfb5;
+padding: 1%;
+font-family: 'Dancing Script', cursive;
+margin:1px auto;
+}
+
+h3{
+text-align:left;
+background-color:#7b7060;
+padding: 1%;
+align-content:space-around;
+}
+p{
+background:#e1e3ac;
+text-align:center;
+color:#000000;
+font-family: 'Love Ya Like A Sister', cursive;
+text-indent: 50px;
+padding: 5px;
+align-content:space-between;
+}
+
+/*******************************************
+				Layout
+*******************************************/
+.wrapper{
+  max-width: 1024px;
+  margin: 0 auto;
+  outline:3px solid white;
+}
+.masthead{
+	
+}
+.main{
+	padding: 1%;
+	margin: 0 auto;
+	font-family: 'Love Ya Like A Sister', cursive;
+	line-height:30px;
+}
+.foot{
+  clear: both;
+  background:#7b7060;
+  text-align: center;
+  color:	#7b7060;
+}
+@media screen and (min-width:500px){
+	
+}
+@media screen and (min-width:500px) and (max-width:780px){
+	
+}
+
+@media screen and (max-width:780px){
+	
+}
+/*******************************************
+				Form Styles
+*******************************************/
+.formBox{
+font-family: 'Handlee', cursive;
+display:block; 
+float:left;
+margin: 2px auto;
+}
+.buttons{
+
+}
+label{
+font-family: 'Handlee', cursive;
+align-content:center;
+display:block;
+}
+input[type=text],
+input[type=number],
+input[type=date]{
+	
+}
+input[type=submit],
+input[type=reset]{
+
+}
+
+.clearfix{
+	box-shadow:1px 1px 1px 0 #494949;
+	padding-bottom:3px;
+	border-color: transparent;
+}
+/*******************************************
+				Image Styles
+*******************************************/
+img{
+	width:330px;
+	height:228px;
+	margin: 0 auto;
+}
+
+.Home-icon{
+	width:16px;
+	height:16px;
+}
+
+.briefcase{
+	width:16px;
+	height:16px;
+}
+
+.calendar{
+	width:16px;
+	height:16px;	
+}
+
+.location{
+	width:16px;
+	height:16px;	
+}
+.check{
+width:16px;
+height:16px;	
+}	
